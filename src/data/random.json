@@ -1,0 +1,14 @@
+[
+    {
+        "text": "Football is something I enjoy very often and not only watching but also playing. I am supporter of Arsenal FC and I enjoy watching messi when he plays as an individual player.",
+        "image": "../src/assets/football.png"
+    },
+    {
+        "text": "I often follow the startup ecosystem and I am really interested in playing my part in it. I believe specially in Ethiopia the env't could grow exponentially if we really give what it really demands.",
+        "image": "../src/assets/startup.png"
+    },
+    {
+        "text": "I like to write blogs on medium and share my thoughts. You can get my blogs on medium and click the medium icon in contact section in order to read my blogs.",
+        "image": "../src/assets/medium.png"
+    }
+]
