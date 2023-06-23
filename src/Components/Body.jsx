@@ -9,6 +9,7 @@ import Data from "../data/random.json"
 import { useState } from "react";
 import Portfolio from "../assets/Portfolio.png"
 import Quizzical from "../assets/Quizzical.png"
+import Aansif from "../assets/Aansif.png"
 
 export default function Body(){
 
@@ -94,13 +95,25 @@ export default function Body(){
                         </div>
                     </div>
                     
-                    <div data-aos="fade-left" className="portfolio-project">
+                    <div data-aos="fade-down" className="portfolio-project">
                         <img className="portfolio-image" id="quizzical" src={Quizzical}/>
                         <div className="portfolio-text">
                             <div className="portfolio-title">Quizzical</div>
                             <div className="portfolio-description">
                                 Quiz App I tried while learning ReactJS in order to implement what I just learned.
                                 In addition to ReactJS I also tried to add cool css.
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div data-aos="fade-left" className="portfolio-project">
+                        <img className="portfolio-image" src={Aansif}/>
+                        <div className="portfolio-text">
+                            <div className="portfolio-title">Portfolio project</div>
+                            <div className="portfolio-description">
+                                My first portfolio project I have done to showcase my skills and projects. 
+                                I did it with html, css and Reactjs. 
                             </div>
                         </div>
                     </div>

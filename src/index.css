@@ -156,7 +156,7 @@ hr{
     max-width: 250px;
     border-radius: 10px;
 }
-.servicebox:hover{
+.servicebox:hover, .portfolio-project:hover{
     box-shadow: 0 20px 25px 0 #00FFFF, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .servicecontainer, .project-container{
@@ -194,6 +194,7 @@ hr{
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
+
 .development{
     height: 200px;
 }
