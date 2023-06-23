@@ -110,10 +110,10 @@ export default function Body(){
                     <div data-aos="fade-left" className="portfolio-project">
                         <img className="portfolio-image" src={Aansif}/>
                         <div className="portfolio-text">
-                            <div className="portfolio-title">Portfolio project</div>
+                            <div className="portfolio-title">Aansif Digital media</div>
                             <div className="portfolio-description">
-                                My first portfolio project I have done to showcase my skills and projects. 
-                                I did it with html, css and Reactjs. 
+                                Aansif is digital media website built with wordpress. It is used as information 
+                                outlet for Ethiopian and African startup and innovation ecosystem. 
                             </div>
                         </div>
                     </div>

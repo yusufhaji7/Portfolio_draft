@@ -278,13 +278,13 @@ a:hover{
 }
 
 @media screen and (max-width: 480px) {
-    .languages, .container, .servicecontainer, .random-container{
+    .languages, .container, .servicecontainer, .random-container, .project-container{
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 10px;
     }
-    .servicebox{
+    .servicebox, .portfolio-project{
         padding-bottom: 10px;
     }
     .menu{
