@@ -7,6 +7,8 @@ import "aos/dist/aos.css"
 import { useEffect } from "react";
 import Data from "../data/random.json"
 import { useState } from "react";
+import Portfolio from "../assets/Portfolio.png"
+import Quizzical from "../assets/Quizzical.png"
 
 export default function Body(){
 
@@ -55,7 +57,9 @@ export default function Body(){
 
             <div>
                 <div className="services" id="services">My Services</div>
+
                 <div className="servicecontainer">
+
                     <div data-aos="fade-right" className="servicebox">
                         <img className="UI" src={UI}/>
                         <div className="servicetext">
@@ -76,7 +80,32 @@ export default function Body(){
 
             <div className="projects" id="projects">
                 <div className="project-title">Projects</div>
-                <div className="projects-list">Coming soon</div>
+
+                <div className="project-container">
+                    
+                    <div data-aos="fade-right" className="portfolio-project">
+                        <img className="portfolio-image" src={Portfolio}/>
+                        <div className="portfolio-text">
+                            <div className="portfolio-title">Portfolio project</div>
+                            <div className="portfolio-description">
+                                My first portfolio project I have done to showcase my skills and projects. 
+                                I did it with html, css and Reactjs. 
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div data-aos="fade-left" className="portfolio-project">
+                        <img className="portfolio-image" id="quizzical" src={Quizzical}/>
+                        <div className="portfolio-text">
+                            <div className="portfolio-title">Quizzical</div>
+                            <div className="portfolio-description">
+                                Quiz App I tried while learning ReactJS in order to implement what I just learned.
+                                In addition to ReactJS I also tried to add cool css.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
 
 

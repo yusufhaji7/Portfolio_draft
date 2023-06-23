@@ -152,25 +152,25 @@ hr{
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
-.servicebox{
+.servicebox, .portfolio-project{
     max-width: 250px;
     border-radius: 10px;
 }
 .servicebox:hover{
     box-shadow: 0 20px 25px 0 #00FFFF, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.servicecontainer{
+.servicecontainer, .project-container{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
-.servicetitles{
+.servicetitles, .portfolio-title{
     font-size: 20px;
     font-weight: bold;
     padding: 10px;
     text-align: center;
 }
-.servicetext{
+.servicetext, .portfolio-text{
     background-color: #242038;
     color: white;
     margin-top: -5px;
@@ -179,12 +179,20 @@ hr{
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
 }
-.service-explanation{
+.portfolio-project{
+    margin-left: 50px;
+}
+.portfolio-text{
+    width: 200px
+}
+.service-explanation,.portfolio-description{
     font-size: small;
     text-align: center;
 }
-.UI{
+.UI, .portfolio-image{
     height: 250px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 .development{
     height: 200px;
@@ -207,7 +215,7 @@ hr{
     font-weight: bolder;
     padding: 20px;
 }
-.social-container{
+.social-container, .project-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
